@@ -1,0 +1,41 @@
+grow past 256 prims     120.3 us
+gi off textures             6
+light steady gi off      22.7 us
+glass steady (gi off)      16.4 us
+light steady gi on       33.5 us
+glass steady (gi on )      19.0 us
+fx steady 16 layers     135.4 us
+
+dx12: peak live view descriptors 1/1000000 (32 B each)
+dx12: peak live view descriptors 3/1000000 (32 B each)
+dx12: peak live view descriptors 4/1000000 (32 B each)
+dx12: peak live view descriptors 7/1000000 (32 B each)
+dx12: peak live view descriptors 14/1000000 (32 B each)
+dx12: peak live view descriptors 26/1000000 (32 B each)
+dx12: peak live view descriptors 28/1000000 (32 B each)
+dx12: peak live view descriptors 29/1000000 (32 B each)
+dx12: peak live view descriptors 38/1000000 (32 B each)
+dx12: peak live view descriptors 40/1000000 (32 B each)
+dx12: peak live view descriptors 47/1000000 (32 B each)
+dx12: peak live view descriptors 55/1000000 (32 B each)
+dx12: peak live view descriptors 63/1000000 (32 B each)
+dx12: peak live view descriptors 71/1000000 (32 B each)
+dx12: peak live view descriptors 79/1000000 (32 B each)
+dx12: peak live view descriptors 87/1000000 (32 B each)
+dx12: peak live view descriptors 89/1000000 (32 B each)
+dx12: peak live view descriptors 96/1000000 (32 B each)
+dx12: peak live view descriptors 108/1000000 (32 B each)
+dx12: peak live view descriptors 111/1000000 (32 B each)
+dx12: peak live view descriptors 114/1000000 (32 B each)
+dx12: peak live view descriptors 117/1000000 (32 B each)
+dx12: peak live view descriptors 120/1000000 (32 B each)
+dx12: peak live view descriptors 123/1000000 (32 B each)
+dx12: peak live view descriptors 126/1000000 (32 B each)
+dx12: peak live view descriptors 129/1000000 (32 B each)
+dx12: peak live view descriptors 132/1000000 (32 B each)
+dx12: peak live view descriptors 135/1000000 (32 B each)
+dx12: peak live view descriptors 138/1000000 (32 B each)
+dx12: peak live view descriptors 143/1000000 (32 B each)
+dx12: peak live view descriptors 148/1000000 (32 B each)
+dx12: peak live view descriptors 151/1000000 (32 B each)
+dx12: peak live view descriptors 154/1000000 (32 B each)

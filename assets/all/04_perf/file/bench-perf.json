@@ -1,0 +1,201 @@
+{
+  "builds": [
+    {
+      "name": "cargo_build_rune_examples",
+      "exit": 0,
+      "wall_ms": 114162.1
+    },
+    {
+      "name": "cargo_build_rune_light",
+      "exit": 0,
+      "wall_ms": 82805.2
+    },
+    {
+      "name": "cargo_build_motion_bento",
+      "exit": 0,
+      "wall_ms": 842.9
+    }
+  ],
+  "runs": [
+    {
+      "name": "pinch_bench",
+      "exit": 0,
+      "wall_ms": 49089.2,
+      "metrics": [
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "commits",
+          "median": 1.0,
+          "p95": 1.0,
+          "n": 9
+        },
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "cpu_ms",
+          "median": 16.1085,
+          "p95": 17.4111,
+          "n": 9
+        },
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "frame_ms",
+          "median": 15.8147,
+          "p95": 17.103,
+          "n": 9
+        },
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "encode_ms",
+          "median": 0.2989,
+          "p95": 0.3087,
+          "n": 9
+        },
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "view_ms",
+          "median": 3.565,
+          "p95": 4.3044,
+          "n": 9
+        },
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "layout_ms",
+          "median": 0.0581,
+          "p95": 0.0607,
+          "n": 9
+        },
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "allocations",
+          "median": 22132.1333,
+          "p95": 22132.1333,
+          "n": 9
+        },
+        {
+          "mode": "rebuild",
+          "cards": 2000,
+          "metric": "live_only_events",
+          "median": 0.0,
+          "p95": 0.0,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "commits",
+          "median": 0.0,
+          "p95": 0.0,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "cpu_ms",
+          "median": 7.3227,
+          "p95": 8.4933,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "frame_ms",
+          "median": 6.9965,
+          "p95": 8.1361,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "encode_ms",
+          "median": 0.3299,
+          "p95": 0.3601,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "view_ms",
+          "median": 0.0,
+          "p95": 0.0,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "layout_ms",
+          "median": 0.0,
+          "p95": 0.0,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "allocations",
+          "median": 90.175,
+          "p95": 90.175,
+          "n": 9
+        },
+        {
+          "mode": "live",
+          "cards": 2000,
+          "metric": "live_only_events",
+          "median": 1.9917,
+          "p95": 1.9917,
+          "n": 9
+        }
+      ]
+    },
+    {
+      "name": "upload_bench",
+      "exit": 0,
+      "wall_ms": 1383.7,
+      "metrics": [
+        {
+          "scene": "steady",
+          "cpu_us": 149.2,
+          "kinstr": 0.0,
+          "frame_us": 274.6,
+          "buffers_per_frame": 0.0
+        },
+        {
+          "scene": "scroll",
+          "cpu_us": 142.0,
+          "kinstr": 0.0,
+          "frame_us": 269.1,
+          "buffers_per_frame": 0.0
+        }
+      ]
+    },
+    {
+      "name": "frame_bench",
+      "exit": 0,
+      "wall_ms": 107360.5,
+      "raw": "grow past 256 prims     120.3 us\ngi off textures             6\nlight steady gi off      22.7 us\nglass steady (gi off)      16.4 us\nlight steady gi on       33.5 us\nglass steady (gi on )      19.0 us\nfx steady 16 layers     135.4 us\n\ndx12: peak live view descriptors 1/1000000 (32 B each)\ndx12: peak live view descriptors 3/1000000 (32 B each)\ndx12: peak live view descriptors 4/1000000 (32 B each)\ndx12: peak live view descriptors 7/1000000 (32 B each)\ndx12: peak live view descriptors 14/1000000 (32 B each)\ndx12: peak live view descriptors 26/1000000 (32 B each)\ndx12: peak live view descriptors 28/1000000 (32 B each)\ndx12: peak live view descriptors 29/1000000 (32 B each)\ndx12: peak live view descriptors 38/1000000 (32 B each)\ndx12: peak live view descriptors 40/1000000 (32 B each)\ndx12: peak live view descriptors 47/1000000 (32 B each)\ndx12: peak live view descriptors 55/1000000 (32 B each)\ndx12: peak live view descriptors 63/1000000 (32 B each)\ndx12: peak live view descriptors 71/1000000 (32 B each)\ndx12: peak live view descriptors 79/1000000 (32 B each)\ndx12: peak live view descriptors 87/1000000 (32 B each)\ndx12: peak live view descriptors 89/1000000 (32 B each)\ndx12: peak live view descriptors 96/1000000 (32 B each)\ndx12: peak live view descriptors 108/1000000 (32 B each)\ndx12: peak live view descriptors 111/1000000 (32 B each)\ndx12: peak live view descriptors 114/1000000 (32 B each)\ndx12: peak live view descriptors 117/1000000 (32 B each)\ndx12: peak live view descriptors 120/1000000 (32 B each)\ndx12: peak live view descriptors 123/1000000 (32 B each)\ndx12: peak live view descriptors 126/1000000 (32 B each)\ndx12: peak live view descriptors 129/1000000 (32 B each)\ndx12: peak live view descriptors 132/1000000 (32 B each)\ndx12: peak live view descriptors 135/1000000 (32 B each)\ndx12: peak live view descriptors 138/1000000 (32 B each)\ndx12: peak live view descriptors 143/1000000 (32 B each)\ndx12: peak live view descriptors 148/1000000 (32 B each)\ndx12: peak live view descriptors 151/1000000 (32 B each)\ndx12: peak live view descriptors 154/1000000 (32 B each)\n"
+    },
+    {
+      "name": "bento_ramp",
+      "exit": 0,
+      "wall_ms": 112010.4,
+      "raw_tail": "\nrune: 3600 frames in 110.76 s wall (32.5 frames/s)\nrune: 3600 frames at 120 fps, gpu init 541.3 ms, first frame 235.40 ms, frame cpu mean 30.635 ms p50 16.033 p95 86.795 max 717.230, 37299 instances\nrune: animating frames 3599 (cpu p50 15.994 p95 86.752 ms), at-rest frames 0 (the window draws none; forced cpu p50 0.000 p95 0.000 ms), layout nodes 25612, glyphs 20914\n"
+    },
+    {
+      "name": "bento_live_256",
+      "exit": 0,
+      "wall_ms": 18725.7,
+      "raw_tail": "\nrune: 960 frames in 18.28 s wall (52.5 frames/s)\nrune: 960 frames at 120 fps, gpu init 315.5 ms, first frame 95.46 ms, frame cpu mean 18.956 ms p50 17.529 p95 26.532 max 95.460, 9230 instances\nrune: animating frames 959 (cpu p50 17.510 p95 26.489 ms), at-rest frames 0 (the window draws none; forced cpu p50 0.000 p95 0.000 ms), layout nodes 6412, glyphs 5133\n"
+    },
+    {
+      "name": "bento_naive_256",
+      "exit": 0,
+      "wall_ms": 26752.7,
+      "raw_tail": "\nrune: 960 frames in 26.31 s wall (36.5 frames/s)\nrune: 960 frames at 120 fps, gpu init 319.7 ms, first frame 61.58 ms, frame cpu mean 27.362 ms p50 26.669 p95 36.531 max 61.579, 9230 instances\nrune: animating frames 0 (cpu p50 0.000 p95 0.000 ms), at-rest frames 959 (the window draws none; forced cpu p50 26.651 p95 36.426 ms), layout nodes 6154, glyphs 5133\n"
+    }
+  ]
+}

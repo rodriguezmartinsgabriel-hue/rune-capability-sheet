@@ -1,0 +1,4 @@
+
+rune: 3600 frames in 110.76 s wall (32.5 frames/s)
+rune: 3600 frames at 120 fps, gpu init 541.3 ms, first frame 235.40 ms, frame cpu mean 30.635 ms p50 16.033 p95 86.795 max 717.230, 37299 instances
+rune: animating frames 3599 (cpu p50 15.994 p95 86.752 ms), at-rest frames 0 (the window draws none; forced cpu p50 0.000 p95 0.000 ms), layout nodes 25612, glyphs 20914
