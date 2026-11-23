@@ -1,0 +1,7 @@
+scene=steady cpu_us=149.2 kinstr=0.0 frame_us=274.6 buffers_per_frame=0.00
+  phases kinstr: prepare=0.0 encoder=0.0 draw=0.0 submit=0.0
+scene=scroll cpu_us=142.0 kinstr=0.0 frame_us=269.1 buffers_per_frame=0.00
+  phases kinstr: prepare=0.0 encoder=0.0 draw=0.0 submit=0.0
+
+dx12: peak live view descriptors 5/65536 (32 B each)
+dx12: peak live view descriptors 10/65536 (32 B each)

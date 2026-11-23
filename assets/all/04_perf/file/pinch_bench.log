@@ -1,0 +1,20 @@
+METRIC mode=rebuild cards=2000 metric=commits median=1.0000 p95=1.0000 n=9
+METRIC mode=rebuild cards=2000 metric=cpu_ms median=16.1085 p95=17.4111 n=9
+METRIC mode=rebuild cards=2000 metric=frame_ms median=15.8147 p95=17.1030 n=9
+METRIC mode=rebuild cards=2000 metric=encode_ms median=0.2989 p95=0.3087 n=9
+METRIC mode=rebuild cards=2000 metric=view_ms median=3.5650 p95=4.3044 n=9
+METRIC mode=rebuild cards=2000 metric=layout_ms median=0.0581 p95=0.0607 n=9
+METRIC mode=rebuild cards=2000 metric=allocations median=22132.1333 p95=22132.1333 n=9
+METRIC mode=rebuild cards=2000 metric=live_only_events median=0.0000 p95=0.0000 n=9
+METRIC mode=live cards=2000 metric=commits median=0.0000 p95=0.0000 n=9
+METRIC mode=live cards=2000 metric=cpu_ms median=7.3227 p95=8.4933 n=9
+METRIC mode=live cards=2000 metric=frame_ms median=6.9965 p95=8.1361 n=9
+METRIC mode=live cards=2000 metric=encode_ms median=0.3299 p95=0.3601 n=9
+METRIC mode=live cards=2000 metric=view_ms median=0.0000 p95=0.0000 n=9
+METRIC mode=live cards=2000 metric=layout_ms median=0.0000 p95=0.0000 n=9
+METRIC mode=live cards=2000 metric=allocations median=90.1750 p95=90.1750 n=9
+METRIC mode=live cards=2000 metric=live_only_events median=1.9917 p95=1.9917 n=9
+
+dx12: peak live view descriptors 5/65536 (32 B each)
+dx12: peak live view descriptors 10/65536 (32 B each)
+rune-warm pinned pipelines: 333276 us to make 3 of 3 on their thread (the run-time check they replace: 326 us, 192 hex)
