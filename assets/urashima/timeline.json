@@ -1,0 +1,18 @@
+{
+  "title": "Urashima Taro - o custo de voltar",
+  "duration_s": 60.0,
+  "fps": 24,
+  "size": [1080, 1920],
+  "engine": "rune",
+  "external_footage": false,
+  "chapters": [
+    {"id": 1, "start": 0, "end": 3, "label": "I / O RETORNO", "lines": ["Ele voltou.", "Fazia 300 anos."], "technique": ["grain-gradient", "glow"]},
+    {"id": 2, "start": 3, "end": 10, "label": "II / O MAR", "lines": ["Salvou uma tartaruga.", "Ela prometeu pagar."], "technique": ["mesh-atmosfera", "haze", "particulas"]},
+    {"id": 3, "start": 10, "end": 20, "label": "III / O PALACIO", "lines": ["A tartaruga o levou.", "Um palacio sob as ondas."], "technique": ["glow", "push-in", "mesh"]},
+    {"id": 4, "start": 20, "end": 30, "label": "IV / A CAIXA", "lines": ["Tres dias. Uma caixa.", "Nao abra."], "technique": ["grain", "foco", "luz"]},
+    {"id": 5, "start": 30, "end": 42, "label": "V / O CAIS", "lines": ["Voltou ao cais.", "Ninguem o conhecia."], "technique": ["desaturacao", "haze"]},
+    {"id": 6, "start": 42, "end": 50, "label": "VI / A PROVA", "lines": ["Tres dias no palacio.", "Trezentos anos na terra."], "technique": ["contraste", "grain"]},
+    {"id": 7, "start": 50, "end": 56, "label": "VII / O CLIMAX", "lines": ["Ele abriu a caixa.", "O tempo saiu de uma vez."], "technique": ["glow", "shake", "picos"]},
+    {"id": 8, "start": 56, "end": 60, "label": "VIII / O GRAO", "lines": ["So um grao ficou."], "technique": ["dissolucao", "grain final"]}
+  ]
+}

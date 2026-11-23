@@ -1,0 +1,3 @@
+Um pescador salva uma tartaruga, visita o palácio submarino e volta 300 anos depois. Reel vertical de 60 segundos renderizado inteiramente pelo Rune: nenhum vídeo externo, nenhum motor 3D terceirizado. A imagem é composta por camadas do próprio framework — gradiente de grão, malha atmosférica, luz motivada, haze, partículas, filme-grão e tipografia nativa — com parâmetros que evoluem a cada batida da história. Trilha do projeto Urashima, loops com crossfade e loudnorm.
+
+Fonte do conto: domínio público; fatos verificados com TinyFish em USC Digital Folklore Archives, Wikipedia e historyofjapan.co.uk, além do MOC de Storytelling do vault. Direção e montagem: Gabriel. Uso de IA: sim (geração procedural em Rust). Não publicado em rede.
